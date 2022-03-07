@@ -1,0 +1,140 @@
+@charset "UTF-8";
+@font-face {
+  font-family: 'talvez goste';
+  src: url('../../FONTS/kremlin/KGTakeOnTheWorld.ttf') format('truetype');
+  font-weight: normal;
+  font-style: bold;
+  
+}
+
+*{
+  padding: 0px;
+  margin: 0px;
+}
+
+body{
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-image:url(../../IMG/fundos/Captura\ de\ Tela\ \(9\).png);
+}
+
+header{
+ 
+  align-items: center;
+  justify-content: space-between;
+  display:flex;
+  height: 11vh
+}
+
+header:hover{
+  background-color: #4b4b4b85;
+}
+
+.textos-do-cabeçalho{
+  margin-left: 2rem;
+  display:inline;
+}
+
+.textos-do-cabeçalho>h1,p,a{
+  text-decoration: none;
+  font-style: bold;
+  font-family:Arial;
+  color:#ffffff;
+}
+
+nav{
+  margin-right: 2rem;
+  width: 279px;
+  float:right;
+  display: inline;
+}
+
+nav>a{
+  font-size: 1rem;
+  font-style: bold;
+  text-decoration: none;
+  text-shadow: 0.5PX 0.5PX #b4b4b3;
+  font-family:Arial;
+  margin-left: 5%;
+  color: #ffffff;
+}
+
+nav>a:hover{
+  color: #fbff00;
+}
+
+#redes-sociais{
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  
+}
+
+
+
+#redes-sociais>a{
+  margin-left: 15px;
+}
+
+.intro{
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  border-bottom: 1px #d15400;
+  height: 92vh;
+}
+
+.logotipos{
+  border-radius: 50%;
+  display: inline-block;
+  background-color: #6c1b4a;
+  margin-top: 3%;
+  margin-left: 4%;
+}
+.logotipos>img{
+  width:25rem ;
+  height:25rem;
+}
+
+#sugestoes{
+  letter-spacing: 10px;
+  word-spacing: 20px;
+  font-size: 4rem;
+  margin:5rem 15rem auto 0px;
+  
+  display:inline;
+}
+#sugestoes>p{
+  text-shadow: 4px -1px 1px #f83737;
+  font-family:'talvez goste';
+}
+
+#Abaixodointro{
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-template-rows: 20% 20% 20% 20% 20%;
+
+  grid-column-start: 1;
+  background-color: #fefff6;
+  height: 100vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+  background-color: rgb(1, 3, 8);
+  height:50%;
+}
